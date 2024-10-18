@@ -47,7 +47,7 @@ def get_completion(user_input):
 # Interface com Streamlit
 st.title("Converse com a Zel")
 
-user_input = st.text_input("O que você precisa:")
+user_input = st.text_input("O que você precisa?:")
 
 if st.button("Enviar"):
     if user_input:
