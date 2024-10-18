@@ -45,7 +45,7 @@ def get_completion(user_input):
         return f"Erro ao obter resposta: {e}"
 
 # Interface com Streamlit
-st.title("Converse com a zel")
+st.title("Converse com a Zel")
 
 user_input = st.text_input("O que você precisa:")
 
